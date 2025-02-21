@@ -1,0 +1,614 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #231c38;
+}
+
+
+/* animation css is started now */
+
+.animt{
+    animation:fadeInDown;
+    animation-duration: 2s;
+}
+
+.animt-1{
+    animation:fadeInUp;
+    animation-duration: 2s;
+}
+
+.animt-2{
+    animation:fadeOut;
+animation-duration: 2s;
+}
+
+.animt-3{
+    animation:fadeInUp;
+    animation-duration: 2s;
+}
+
+.animt-4:hover{
+    animation:headShake;
+    animation-duration: 5s;
+}
+
+.animt-5:hover{
+    animation:pulse;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+
+.animt-6:hover{
+    animation:pulse;
+    animation-duration: 2s;
+    cursor: pointer;
+    /* transform: scale(1.1); */
+}
+
+/* animation is completed */
+
+
+
+
+.box-1{
+    background-color: #231c38;
+    width: 100%;
+    height: 15vh;
+    /* box-shadow: 0 -5 10px #FF1E53, 0 -5 10px #FF8101, 0 -5 15px #6720FF; */
+    border-bottom: 2px solid #352f5b;
+}
+
+.t-button{
+    background-color: white;
+}
+
+.my-search-bar{
+    width: 400px;
+    height: 50px;
+    /* background-color: palevioletred; */
+    border-radius: 15px;
+    /* color: white; */
+    
+}
+.my-btn{
+width: 130px;
+height: 50px;
+background-color: #352f5b;
+
+border-radius: 10px;
+border: none;
+color: white;
+border: 5px solid #6720FF #FF1E5E #FF8101;
+}
+
+.my-btn {
+    border: 1px solid #FF8101;
+    /* padding: 20px; */
+    color: white;
+    background-color: #352f5b; /* Dark Background for Glow Effect */
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+}
+
+
+.my-icons{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #352f5b;
+    color: white;
+}
+
+.my-icons{
+    border: 1px solid #FF8101;
+    /* padding: 20px; */
+    color: white;
+    background-color: #352f5b; /* Dark Background for Glow Effect */
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+}
+
+
+
+.div-form{
+    /* background-color: brown; */
+    color: white;
+}
+
+.text-1{
+    display: inline-block;
+    position: relative;
+    color: white;
+    cursor: pointer;
+}
+
+.text-1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Underline position */
+    width: 0;
+    height: 2px; /* Underline thickness */
+    box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+    background-color: #FF8101; /* Underline color */
+    transition: width 0.3s ease-in-out;
+}
+
+.text-1:hover::after {
+    width: 100%; /* Full underline on hover */
+}
+
+.box-2{
+    background-color: #352f5b;
+}
+
+
+.box-2{
+    /* background-color: #FF1E5E; */
+}
+
+.row{
+    /* background-color: yellowgreen; */
+
+}
+
+.col{
+/* background-color: lightblue; */
+}
+
+.icn{
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.icn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Underline position */
+    width: 0;
+    height: 2px; /* Underline thickness */
+    box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+    background-color: #FF8101; /* Underline color */
+    transition: width 0.3s ease-in-out;
+}
+
+.icn:hover::after {
+    width: 100%; /* Full underline on hover */
+    
+}
+
+
+
+.icn-1{
+    animation:pulse;
+    animation-duration: 1s;
+}
+
+
+
+
+
+.gts-btn button{
+    width: 120px;
+    height: 50px;
+    color: white;
+     background-color: #231c38;
+     border-radius: 10px;
+     border:1px solid #FF8101;
+    box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+}
+
+.gts-btn button:hover{
+    background-color: #352f5b;
+    border: 1px solid white;
+}
+
+.container{
+    /* border: 2px solid yellowgreen; */
+}
+
+.heading-1{
+    color: white;
+}
+
+.text-2{
+    color: white;
+}
+
+.images-apple-playstore{
+    cursor: pointer;
+}
+
+.hover:hover{
+    transform: scale(1.1);
+    border: 1px solid white;
+    box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+}
+
+.col-6{
+    border: 2px solid white;
+}
+.map-img{
+    background-color: red;
+    width: 400px;
+    height: 300px;
+
+}
+
+.map-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.heading-1{
+    text-decoration: 3px solid #FF8101 underline;
+}
+
+.read-more-button{
+    width: 140px;
+    height: 40px;
+    background-color:#352f5b;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #FF8101;
+}
+
+.read-more-button:hover{
+transform: scale(1.1);
+border: 1px solid white;
+box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+}
+
+.one-div{
+    background-color: #352f5b;
+    border: 1px solid white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+
+}
+
+.hand-color{
+    color: white;
+}
+
+.text-2{
+    /* background-color: yellowgreen; */
+}
+
+
+.one-main-div{
+    /* background-color: palevioletred; */
+    /* border: 1px solid white; */
+    /* border-radius: 10px; */
+}
+
+.car-img{
+    width: 400px;
+    height: 350px;
+/* background-color: yellowgreen; */
+}
+
+.car-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.text-3{
+    color: white;
+}
+
+.box-4{
+    /* background-color: yellowgreen; */
+    
+}
+
+.card-1{
+    background-color: #352f5b;
+    border: 2px solid white;
+box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+
+}
+
+.car-1-img{
+    width: 250px;
+    height: 180px;
+    /* background-color: lightblue; */
+}
+
+.car-1-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.my-second-icons-div{
+    /* background-color: yellowgreen; */
+}
+
+.collage-image-2{
+    /* background-color: yellowgreen; */
+}
+
+.collage-image-child-1{
+    /* background-color: lightblue; */
+    width: 220px;
+    height: 180px;
+}
+
+.collage-image-child-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.collage-image-child-2{
+    background-color: rgb(90, 50, 111);
+    width: 220px;
+    height: 180px;
+}
+
+.collage-image-child-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.map-imges{
+    width: 400px;
+    height: 350px;
+    /* background-color: yellowgreen; */
+}
+
+.map-imges img{
+    width: 100%;
+    height: 100%;
+}
+
+.last-footer-container{
+    background-color: #352f5b;
+}
+
+.footer-first-col{
+    background-color: #352f5b;
+}
+
+.logo-img{
+    /* background-color: yellowgreen; */
+    width: 150px;
+    height: 50px;
+}
+
+.logo-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer-second-col{
+    background-color: #352f5b;
+}
+
+ul{
+    list-style:none;
+    line-height: 30px;
+    /* background-color: yellowgreen */
+}
+
+ul li:hover{
+    cursor: pointer;
+    text-decoration: 1px solid #FF8101 underline;
+}
+
+.second-last-button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #352f5b;
+    color: white;
+    border: 2px solid white;
+box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+
+}
+
+.second-last-button:hover{
+    cursor: pointer;
+    background-color: #231c38;
+    }
+
+.last-button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: #352f5b;
+    color: white;
+box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+
+}
+
+.last-button:hover{
+cursor: pointer;
+background-color: #231c38;
+}
+
+footer{
+    background-color: #352f5b;
+}
+
+.my-first-anchore{
+    color:white;
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    body {
+      /* background-color: lightblue; */
+    }
+
+    .header-section{
+        display: none;
+    }
+
+    .header-section-1{
+        display: none;
+    }
+
+    .c-r-1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .c-r-2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-image{
+        display: none;
+    }
+
+    .map-img:hover{
+
+    }
+    
+    .car-img{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 250px;
+    }
+
+    .map-img{
+        width: 350px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .images-apple-playstore-again-responsive{
+        display: flex;
+    }
+
+
+   
+
+
+
+  }
+  
+  /* Small devices (tablets, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+      /* background-color: lightgreen; */
+    }
+
+    .header-section{
+        display: none;
+    }
+    .header-section-1{
+        display: none;
+    }
+
+    .c-r-1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .c-r-2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .car-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .images-apple-playstore-again-responsive{
+        display: flex;
+    }
+
+    
+    
+  }
+  
+  /* Medium devices (desktops, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+      /* background-color: lightcoral; */
+    }
+
+    .header-section{
+        display: none;
+    }
+
+    .header-section-1{
+        display: none;
+    }
+
+    .c-r-1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .c-r-2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+  }
+  
+  /* Large devices (large desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+      /* background-color: lightgoldenrodyellow; */
+    }
+
+    .header-section{
+        display: none;
+    }
+
+  }
+  
+  /* Extra large devices (1200px and up) */
+  @media (min-width: 1200px) {
+    body {
+      /* background-color: lightgray; */
+    }
+.header-section{
+    display: none;
+}
+
+
+
+  }
+
+
+
+

@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* animation css is started now */
+
+.animt{
+  animation:fadeInDown;
+  animation-duration: 2s;
+}
+
+.animt-1{
+  animation:fadeInUp;
+  animation-duration: 2s;
+}
+
+.animt-2{
+  animation:fadeOut;
+animation-duration: 2s;
+}
+
+.animt-3{
+  animation:fadeInUp;
+  animation-duration: 2s;
+}
+
+.animt-4:hover{
+  animation:headShake;
+  animation-duration: 5s;
+}
+
+.animt-5:hover{
+  animation:pulse;
+  animation-duration: 2s;
+  cursor: pointer;
+}
+
+.animt-6:hover{
+  animation:pulse;
+  animation-duration: 2s;
+  cursor: pointer;
+  /* transform: scale(1.1); */
+}
+
+/* animation is completed */
+
+
+.container-fluid{
+    /* border: 2px solid white; */
+}
+
+.drive-logo-img{
+    width: 170px;
+    height: 70px;
+    /* background-color: yellowgreen; */
+}
+
+.drive-logo-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.input-custom{
+    /* background-color: yellowgreen; */
+}
+
+.input-custom input{
+    width: 260px;
+    height: 50px;
+    border: none;
+}
+
+.input-custom-1 input{
+    width: 550px;
+    height: 50px;
+    border: none;
+}
+
+.sign-up-btn button{
+    width: 550px;
+    height: 50px;
+    border: 2px solid white;
+    background-color:#231c38 ;
+    color: white;
+    box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+
+}
+
+.col-3{
+    /* background-color: bisque; */
+}
+
+.boder-bottom{
+    border-bottom: 2px solid white;
+}
+
+.boder-bottom-1{
+    border-bottom: 1px solid rgb(174, 173, 173);
+}
+
+.hellow{
+    border: none;
+}
+
+
+
+
+
+/* Extra small devices (phones, less than 576px) */
+        @media (max-width: 575.98px) {
+          body {
+            /* background-color: lightblue; */
+          }
+
+          .boder-bottom{
+            width: 50%;
+          }
+
+          .boder-bottom-1{
+            width: 50%;
+          }
+        }
+        
+        /* Small devices (tablets, 576px and up) */
+        @media (min-width: 576px) and (max-width: 767.98px) {
+          body {
+            /* background-color: lightgreen; */
+          }
+        }
+        
+        /* Medium devices (desktops, 768px and up) */
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          body {
+            /* background-color: lightcoral; */
+          }
+        }
+        
+        /* Large devices (large desktops, 992px and up) */
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          body {
+            /* background-color: lightgoldenrodyellow; */
+          }
+        }
+        
+        /* Extra large devices (1200px and up) */
+        @media (min-width: 1200px) {
+          body {
+            /* background-color: lightgray; */
+          }
+        }
